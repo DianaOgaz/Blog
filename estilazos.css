@@ -1,0 +1,57 @@
+body,
+html {
+    background: radial-gradient(at center, #324861, rgb(81, 76, 100));
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.main-container {
+    padding: 50px;
+}
+
+.navbar-container {
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    position: relative;
+    height: 25vh;
+    margin-bottom: 50px;
+}
+
+.navbar-menu {
+    background-color: aliceblue;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+    height: 70px;
+    width: 300px;
+}
+
+.navbar-menu,
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 1vh;
+    align-items: end;
+
+}
+
+.navbar-menu,
+li {
+    margin: 0 15px;
+    justify-content: center;
+}
+
+.recent-publication-container {
+    background-color: aliceblue;
+    padding: 20px;
+    display: flex;
+}
+.post-date{
+    display: flex;
+    position: relative;
+    align-items: end;
+}
