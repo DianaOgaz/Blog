@@ -17,6 +17,7 @@ html {
     position: relative;
     height: 25vh;
     margin-bottom: 50px;
+    border-radius: 10px;
 }
 
 .navbar-menu {
@@ -46,12 +47,46 @@ li {
 }
 
 .recent-publication-container {
-    background-color: aliceblue;
+    background-color:rgb(224, 224, 224);
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    width: auto;
     padding: 20px;
-    display: flex;
+    border-radius: 10px;
 }
-.post-date{
+.popular-publication-container {
+    background-color:rgb(224, 224, 224);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.diary-secction-container {
+    background-color:rgb(224, 224, 224);
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.post-date {
     display: flex;
     position: relative;
     align-items: end;
+}
+
+.post-user {
+    display: flex;
+}
+
+.post-user p:nth-child(2) {
+    width: 100%;
+}
+.post-user img{
+    width: 50px;
+    padding-right: 20px;
+}
+.popular-publication-container{
+    padding-left: 150px;
+    padding-right: 150px;
 }
